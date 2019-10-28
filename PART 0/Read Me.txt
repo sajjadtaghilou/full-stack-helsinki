@@ -1,0 +1,17 @@
+I have completed the exercises for B-subpart of PART-0 of this course, which are as follows:
+
+
+0.1->HTML: Reviewing the basics of HTML by reading the tutorial from Mozilla.
+
+0.2->CSS: Reviewing the basics of CSS by reading the tutorial from Mozilla.
+
+0.3->HTML Forms: Learning about the basics of HTML forms by reading Mozilla's tutorial.
+
+0.4->New Note (on sample app page): A sequence diagram, depicting the situation where the user creates a new note on the normal sample app page,
+and submitting it. This is submitted in the form of a .png image file, named as (0.4) .
+
+0.5->Single Page App: A sequence diagram, dipicting the situation where the user goes to single page app version of notes aap.
+This is submitted in the form of a .png image file format, named as (0.5) .
+
+0.6->New Note (on single-page note app): A sequence diagram depicting the situation, where user creates a new note using the single page version of the app.
+This is submitted in the form of a .png image file format, named as (0.6) .
