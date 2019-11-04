@@ -10,11 +10,9 @@ const Header = (props) => {
 }
 
 const Content = (props) => {
-  //console.log(props.course.parts[0].name)
   const paragraphs = props.course.parts.map(
     part => <p> {part.name} {part.exercises}</p>
   )
-  //console.log(paragraphs);
   return (
     <>
     {paragraphs}
@@ -25,7 +23,6 @@ const Content = (props) => {
 const Total = (props) => {
 
   return (
-    // <p>Number of exercises {props.course.parts[0].exercises+props.course.parts[1].exercises+props.course.parts[2].exercises}</p>
         <p> Number of exercises {props.course.parts.map(item => item.exercises).reduce((accumulator, currValue) => accumulator + currValue) }</p>
     )
 }
@@ -61,7 +58,3 @@ const App = () => {
   )
 }
 ReactDOM.render(<App /> , document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
