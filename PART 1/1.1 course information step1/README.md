@@ -5,3 +5,11 @@ This project contains the exercises of the [Full Stack Open Course](https://full
 
 ## Content
  [ 1.1 course information step1](https://github.com/sajjadtaghilou/full-stack-helsinki/tree/master/PART%201/1.1%20course%20information%20step1)
+
+To start clone the repo and run
+```
+cd 1.1 course information step1
+npm install
+npm start
+```
+To visit the live version of the app, visit https://www.exercise-4.sajjadtaghilou.com/
