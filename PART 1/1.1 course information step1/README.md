@@ -12,4 +12,4 @@ cd 1.1 course information step1
 npm install
 npm start
 ```
-To visit the live version of the app, visit https://www.exercise-4.sajjadtaghilou.com/
+To visit the live version of the app, visit https://courseinformatio1-1.herokuapp.com/
