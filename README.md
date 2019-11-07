@@ -8,6 +8,8 @@ This project contains the exercises of the [Full Stack Open Course](https://full
  
  [1. Introduction to React](https://github.com/sajjadtaghilou/full-stack-helsinki/tree/master/PART%201)
 
+
+ [2. Comunication with server]()
  2. Comunication with server
  3. Programming a server with NodeJS and Express
  4. Testing Express servers, user administration
