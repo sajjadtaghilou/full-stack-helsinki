@@ -8,7 +8,7 @@ This project contains the exercises of the [Full Stack Open Course](https://full
 
 To start clone the repo and run
 ```
-cd 1.1 course information step1
+cd 1.11 unicafe step6
 npm install
 npm start
 ```
