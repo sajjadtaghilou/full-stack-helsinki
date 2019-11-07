@@ -3,7 +3,7 @@
 
 This project contains the exercises of the [Full Stack Open Course](https://fullstackopen.com/en/) 2019 of the University of Helsinki.
 
-## 1.11:unicafe step6:
+## 1.11 unicafe step6:
 
 To start clone the repo and run
 ```
