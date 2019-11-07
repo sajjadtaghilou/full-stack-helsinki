@@ -17,12 +17,8 @@ const anecdotes = [
         )
     }
     const Best = ({anecdotes, anecRate}) => {
-        //const rateList =  anecdotes.map((value, i)=>{})
-        
         let anecList = [];
         for (const key in anecRate) {
-            
-            //console.log(typeof )
             if (anecRate.hasOwnProperty(key)) {
                anecList = anecList.concat({
                     votes: anecRate[key],
@@ -43,16 +39,12 @@ const anecdotes = [
             
         )
     }
-
     const App = (props) => {
         const [selected, setSelected] = useState(0);
-//        const [anecRate, setAnecRate] = useState(new Array(6+1).join('0').split('').map(parseFloat));
         const [anecRate, setAnecRate] = useState({0:0, 1:0, 2:0, 3:0, 4:0, 5:0});
-
         const getRandomArrIndex = () => {
             return Math.floor(Math.random() * Math.floor(6))
         }
-
         const setToSelected = () => setSelected(getRandomArrIndex());
         const setToAnecRate = (index) => {
             const newAnecRate = {...anecRate};
@@ -64,14 +56,8 @@ const anecdotes = [
                 <p>{props.anecdotes[selected]}</p>
                 <Button onClick={() => setToSelected() } text="Another anec"/>
                 <Button onClick={() => setToAnecRate(selected)} text="vote"/>
-                
                 <Best anecdotes={anecdotes} anecRate={anecRate}/>
             </div>
         )
     }
-
 ReactDOM.render(<App anecdotes={anecdotes}/>, document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
