@@ -6,9 +6,4 @@ This project contains the exercises of the [Full Stack Open Course](https://full
 ## Content
  [ 2.1 countries]()
 
- [ 2.2:course_contents]()
- 
- [2.3 phonebook]()
-
-
 
