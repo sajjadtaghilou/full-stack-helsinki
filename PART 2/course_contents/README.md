@@ -9,8 +9,3 @@ This project contains the exercises of the [Full Stack Open Course](https://full
  [ 2.2:course_contents]()
  
  [2.3 phonebook]()
-
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
