@@ -7,8 +7,7 @@ const Footer = () => {
     fontSize: 16
   };
 
-  return (
-  );
+  return ();
 };
 
 export default Footer;
