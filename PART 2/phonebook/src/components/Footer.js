@@ -8,10 +8,6 @@ const Footer = () => {
   };
 
   return (
-    <div style={footerStyle}>
-      <br />
-      <em>Phonebook app, Svetlana Zhak, 2019</em>
-    </div>
   );
 };
 
