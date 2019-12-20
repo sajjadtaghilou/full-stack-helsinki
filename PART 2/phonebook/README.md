@@ -7,3 +7,13 @@ This project contains the exercises of the [Full Stack Open Course](https://full
  
  [2.3 phonebook]()
 
+
+ To start clone the repo and run
+```
+cd 1.14 anecdotes step3
+npm install
+npm start
+```
+
+
+To visit the live version of the app, visit https://full-stackphonebook.netlify.com
