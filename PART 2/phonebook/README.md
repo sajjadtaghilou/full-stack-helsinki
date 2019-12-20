@@ -16,4 +16,4 @@ npm start
 ```
 
 
-To visit the live version of the app, visit https://full-stackphonebook.netlify.com
+To visit the live version of the app, visit https://full-phonebook.herokuapp.com/
